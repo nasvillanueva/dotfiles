@@ -1,0 +1,38 @@
+! cyber by tudurom
+
+#define fg      #e0f2ec
+#define bg      #11292e
+
+! black
+#define blk     #0e1f22
+#define bblk    #1c4b4e
+
+! red
+#define red     #a85659
+#define bred    #eb8995
+
+! green
+#define grn     #668e8c
+#define bgrn    #82aea9
+
+! yellow
+#define ylw     #c3b6a4
+#define bylw    #e1d9ce
+
+! blue
+#define ble     #326d78
+#define bblu    #a7d2cd
+
+! magenta (or orange)
+#define mag     #433c32
+#define bmag    #aa9576
+
+! cyan
+#define cyn     #386e74
+#define bcyn    #90c0bd
+
+! white
+#define wht     #e0f2ec
+#define bwht    #f0f8f3
+
+*.cursorColor:  #e0f2ec

@@ -1,0 +1,16 @@
+color cyber
+
+let mapleader = ","
+
+set gui=tabs
+set gui=nonavigation
+set focuscontent
+set visualbell
+set autocomplete
+set wildmode=list:longest,full
+set editor="urxvt -e vim -f"
+set hintinputs="label,name"
+set hintmatching="wordstartswith"
+
+noremap <leader>S :source ~/.vimperatorrc
+" vim: set ft=vim:

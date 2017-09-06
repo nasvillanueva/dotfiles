@@ -1,0 +1,92 @@
+!
+! ~/.Xresources
+!
+
+! Fontconfig settings
+Xft.lcdfilter                :  lcddefault
+Xft.hintstyle                :  hintfull
+Xft.hinting                  :  1
+Xft.autohint                 :  1
+Xft.antialias                :  1
+! originally 96
+Xft.dpi                      :  96
+Xft.rgba                     :  rgb
+
+! Font declaration
+URxvt.font                   :  xft:artwiz lime:size=8,xft:FontAwesome:size=8
+URxvt.boldFont               :  xft:artwiz lime.se:size=8,xft:FontAwesome:size=8
+URxvt.italicFont             :  xft:artwiz lime.se:size=8,xft:FontAwesome:size=8
+
+! Disable scrollbar
+URxvt.scrollBar              :  false
+
+! Enable buffer
+URxvt.buffered               :  true
+
+! Add padding
+URxvt.internalBorder         : 8
+
+! Color all underlined text
+!URxvt.colorUL                :  #78A4FF
+
+! Allow large maximum line length
+URxvt*saveLines              :  65535
+
+! Enable cursor blinking
+URxvt*cursorBlink            :  true
+
+! Enable cursor underline
+URxvt*cursorUnderline        : true
+
+! Do not scroll with output
+URxvt*scrollTtyOutput        :  false
+
+! Scroll in relation to buffer
+URxvt*scrollWithBuffer       :  true
+
+! Scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress      :  true
+
+! Color depth?
+URxvt.depth: 32
+
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.keysym.M-u: perl:matcher:select
+
+#include ".xcolors/current"
+
+*background: [85]bg
+*foreground: fg
+
+! Black
+*color0: blk
+*color8: bblk
+
+! Red
+*color1: red
+*color9: bred
+
+! Green
+*color2: grn
+*color10: bgrn
+
+! Yellow
+*color3: ylw
+*color11: bylw
+
+! Blue
+*color4: blu
+*color12: bblu
+
+! Magenta
+*color5: mag
+*color13: bmag
+
+! Cyan
+*color6: cyn
+*color14: bcyn
+
+! White
+*color7: wht
+*color15: bwht

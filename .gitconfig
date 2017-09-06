@@ -1,0 +1,8 @@
+[user]
+	name = Nas Villanueva
+	email = jvillanueva@exist.com
+[url "https://"]
+	insteadOf = git://
+[core]
+	autocrlf = input
+	excludesfile = /home/jvillanueva/.gitignore_global
