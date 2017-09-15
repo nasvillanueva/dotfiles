@@ -2,3 +2,6 @@ setup.sh
 .dotignore
 .git/
 .gitmodules
+.config/fcitx/clipboard/history.dat
+.config/fcitx/dbus/
+.vimperator/info/default/history-
