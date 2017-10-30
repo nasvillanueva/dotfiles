@@ -1,1 +1,5 @@
 set show_hidden true
+cd ~/.m2
+open_with
+redraw_window 
+shelq

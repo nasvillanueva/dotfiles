@@ -116,7 +116,12 @@ alias steam-wine='WINEDEBUG=-all optirun wine ~/.wine/drive_c/Program\ Files/Ste
 alias vivaldi-tor="vivaldi-stable --proxy-server='socks5://127.0.0.1:9050' --host-resolver-rules='MAP * 0.0.0.0 , EXCLUDE 127.0.0.1'"
 alias vim="/usr/bin/nvim"
 alias interrobang="XMODIFIERS='' interrobang"
+alias dc='docker-compose'
 
+alias ssh='TERM="xterm-256color" ssh'
+
+
+export PBCOM_DEV="-Dspring.profiles.active=development -Dspring.config.location=file:/home/jvillanueva/dev/projects/pbcom-project/pbcom/config/"
 #. /usr/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
